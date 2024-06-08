@@ -1,0 +1,126 @@
+*
+{
+    font-family: 'Poppins', sans-serif;
+}
+
+html
+{
+    margin: 0;
+}
+
+body
+{
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh ;
+    margin:0px;
+    overflow:hidden;
+
+}
+
+nav
+{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+    margin:0px !important;
+    width:100%;
+    height:60px;
+    color:white;
+}
+nav ul
+{
+    display: flex;
+    align-items: center;
+    gap:50px;
+    list-style: none;
+}
+
+nav ul li
+{
+    font-weight: 400;
+    transition:transform 0.2s linear;
+}
+nav img
+{
+    width: 100px;
+}
+nav ul li:hover
+{
+    font-weight: 500;
+    transform: scale(1.1);
+    cursor:pointer;
+}
+nav button
+{
+    background-color: #b90ec5;
+    color:white;
+    padding:5px;
+    width:120px;
+    height:35px;
+    border-radius: 5px;
+    font-weight: 600;
+    transition: transform 0.2s linear;
+    border: none;
+}
+nav button:hover
+{
+    cursor:pointer;
+    transform:scale(1.1);
+}   
+
+main
+{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 80px;
+
+}
+main > div
+{
+    width: 900px;
+    
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    overflow: visible;
+}
+main h1
+{
+    color:white;
+    font-weight: 800;
+    text-align: center;
+    font-size: 60px;
+    line-height:75px;
+    margin-bottom: 10px;
+}
+main h3
+{
+    color:white;
+    font-weight: 500;
+    text-align: center;
+    margin-top:0;
+
+}
+main button
+{
+    background-color: #b90ec5;
+    color:white;
+    width:270px;
+    height:50px;
+    border:none;
+    font-weight: 600;
+    border-radius: 7px;
+    font-size: 20px;
+    padding:7px;
+    margin-top: 45px;
+    transition: transform 0.2s linear;
+
+}
+main button:hover
+{
+    cursor: pointer;
+    transform: scale(1.1);
+}
